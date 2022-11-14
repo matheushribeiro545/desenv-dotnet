@@ -45,3 +45,15 @@ Sobre a plataforma .Net
 - .Net (Core 5) (Atual).
   
   - Multiplataforma
+
+**Dotnet Prático**
+
+- Linha de comandos
+  
+  - Powershell
+
+- Tipo de projeto
+  
+  - Console
+  
+  - API
