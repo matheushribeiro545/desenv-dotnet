@@ -57,3 +57,29 @@ Sobre a plataforma .Net
   - Console
   
   - API
+  
+  - Etc...
+
+- Classes
+  
+  - Conceito representado do mundo real, em código. Ex.: Uma pessoa e suas características
+  
+  - Sempre começa pelos atributos, depois seus métodos. Os métodos não são obrigatórios
+  
+  - Sempre começa com a primeira letra maiúscula. Caso o nome seja composto por um conjunto de palavras, cada letra inicial será maiúscula. Ex.: Pessoa Fisica => PessoaFisica (Vulgo PascalCase)
+  
+  - Os métodos devem ser apresentados abrindo e fechando parenteses
+  
+  - É possível ter duas classes com mesmo nome no mesmo programa
+  
+  - Namespace: utilizado para organizaçāo de código. Indica um caminho lógico de uma classe, por exemplo
+
+- Cases
+  
+  - Padrāo de escrita para nomes, sendo esses o utilizado no c#: camelCase e PascalCase
+
+**Atalhos**
+
+- prop -> propriedade que completa um código
+
+- \n -> quebra de linha no texto de execuçāo
