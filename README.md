@@ -86,6 +86,8 @@ Sobre a plataforma .Net
   
   - O nome do arquivo deve obeceder o nome da sua classe
 
+- 
+
 **Gerais**
 
 - prop -> propriedade que completa um código
