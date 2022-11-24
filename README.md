@@ -66,7 +66,7 @@ Sobre a plataforma .Net
   
   - Sempre começa pelos atributos, depois seus métodos. Os métodos não são obrigatórios
   
-  - Sempre começa com a primeira letra maiúscula. Caso o nome seja composto por um conjunto de palavras, cada letra inicial será maiúscula. Ex.: Pessoa Fisica => PessoaFisica (Vulgo PascalCase)
+  - Sempre começa com a primeira letra maiúscula. Caso o nome seja composto por um conjunto de palavras, cada letra inicial será maiúscula. Ex.: Pessoa Fisica => PessoaFisica (PascalCase)
   
   - Os métodos devem ser apresentados abrindo e fechando parenteses
   
@@ -78,7 +78,15 @@ Sobre a plataforma .Net
   
   - Padrāo de escrita para nomes, sendo esses o utilizado no c#: camelCase e PascalCase
 
-**Atalhos**
+- Convençōes (Normalizaçāo de código)
+  
+  - Nunca abreviar nomes de variáveis, classes e propriedades, para manter o código legivel
+  
+  - Utilizar o PascalCase para variáveis e classes no C#
+  
+  - O nome do arquivo deve obeceder o nome da sua classe
+
+**Gerais**
 
 - prop -> propriedade que completa um código
 
