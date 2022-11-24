@@ -1,29 +1,24 @@
 ﻿using desenv_dotnet.Models;
 
-////Tipos de dados
+//// Atribuiçōes
 
-DateTime dataAtual = DateTime.Now.AddDays(-5);
-Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
+// int a = 1;
+// int b = 2;
 
-// string apresentacao = "Olá, tudo bem?";
+// int c = a + b;
 
-// int quantidade = 2;
+// // c = c + 5;
+// c += 5; //Ao colocar um operador antes do =, é realizado a operaçāo sem atribuir o número
 
-// double altura = 1.75;
+// Console.WriteLine(c);
 
-// decimal preco = 2.75M;
 
-// bool condicao = false;
+///// Cast - Casting
 
-// Console.WriteLine(apresentacao);
-// Console.WriteLine("Valor da variável quantidade: " + quantidade);
-// Console.WriteLine("Valor da variável altura: " + altura.ToString("0.00")); //ToString para trazer mais casas após a virgula, apenas no double
-// Console.WriteLine("Valor da variável preco: " + preco); //Mais recomendado para valores e moedas
-// Console.WriteLine("Valor da variável condicao: " + condicao);
+int a = Convert.ToInt32("5"); //Retorna nulos como zero (mais recomendado)
+//int a = int.Parse("5"); //Nāo trata valores nulos
+int b = Convert.ToInt32("3");
 
-////Classe
-// Pessoa p = new Pessoa();
+int c = a + b;
 
-// p.Nome = "Matheus";
-// p.Idade = 21;
-// p.Apresentar();
+Console.WriteLine(c);
