@@ -1,25 +1,33 @@
 ﻿using desenv_dotnet.Models;
 
+////Switch case
+Console.WriteLine("Digite uma letra");
+string? letra = Console.ReadLine();
 
-////Operadores condicionais
-int quantidadeEmEstoque = 8;
-int quantidadeCompra = 0;
-bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
+// if (letra == "a" ||
+//     letra == "e" ||
+//     letra == "i" ||
+//     letra == "o" ||
+//     letra == "u")
+// {
+//     Console.WriteLine("Vogal");
+// }
+// else
+// {
+//     Console.WriteLine("Nāo é uma vogal");
+// }
 
-Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
-Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
-Console.WriteLine($"É possível realizada a venda? {possivelVenda}");
-
-if (quantidadeCompra == 0)
+switch (letra)
 {
-    Console.WriteLine("Venda inválida");
-}
-
-else if (possivelVenda)
-{
-    Console.WriteLine("Venda realizada.");
-}
-else
-{
-    Console.WriteLine("Desculpe. Nāo temos a quantidade desejada em estoque.");
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("Vogal");
+        break;
+        
+    default:
+        Console.WriteLine("Nāo é uma vogal");
+        break;
 }
