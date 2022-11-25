@@ -1,36 +1,25 @@
 ﻿using desenv_dotnet.Models;
 
-//// Atribuiçōes
 
-// int a = 1;
-// int b = 2;
+////Operadores condicionais
+int quantidadeEmEstoque = 8;
+int quantidadeCompra = 0;
+bool possivelVenda = quantidadeCompra > 0 && quantidadeEmEstoque >= quantidadeCompra;
 
-// int c = a + b;
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade compra: {quantidadeCompra}");
+Console.WriteLine($"É possível realizada a venda? {possivelVenda}");
 
-// // c = c + 5;
-// c += 5; //Ao colocar um operador antes do =, é realizado a operaçāo sem atribuir o número
+if (quantidadeCompra == 0)
+{
+    Console.WriteLine("Venda inválida");
+}
 
-// Console.WriteLine(c);
-
-
-///// Cast - Casting
-
-//int a = Convert.ToInt32("5"); //Retorna nulos como zero (mais recomendado)
-//int a = int.Parse("5"); //Nāo trata valores nulos
-
-
-// int inteiro = 5;
-// string a = inteiro.ToString();
-
-// Console.WriteLine(a);
-
-//// Gerar exceçāo sem quebrar o programa
-
-string a = "5a";
-
-int b = 0;
-
-int.TryParse(a, out b);
-
-Console.WriteLine(b);
-Console.WriteLine("Conversāo realizada com sucesso");
+else if (possivelVenda)
+{
+    Console.WriteLine("Venda realizada.");
+}
+else
+{
+    Console.WriteLine("Desculpe. Nāo temos a quantidade desejada em estoque.");
+}
