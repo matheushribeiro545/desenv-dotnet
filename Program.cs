@@ -1,33 +1,29 @@
 ﻿using desenv_dotnet.Models;
 
-////Switch case
-Console.WriteLine("Digite uma letra");
-string? letra = Console.ReadLine();
+//operadores - AND
+/*
+bool possuiPresencaMinima = true;
+double media = 7.5;
 
-// if (letra == "a" ||
-//     letra == "e" ||
-//     letra == "i" ||
-//     letra == "o" ||
-//     letra == "u")
-// {
-//     Console.WriteLine("Vogal");
-// }
-// else
-// {
-//     Console.WriteLine("Nāo é uma vogal");
-// }
-
-switch (letra)
+if (possuiPresencaMinima && media >= 7)
 {
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-        Console.WriteLine("Vogal");
-        break;
-        
-    default:
-        Console.WriteLine("Nāo é uma vogal");
-        break;
+    Console.WriteLine("Aluno aprovado!");
+}
+else
+{
+    Console.WriteLine("Reprovado!");
+}
+*/
+//operadores - NOT
+
+bool choveu = false;
+bool estaTarde = false;
+
+if (!choveu && !estaTarde)
+{
+    Console.WriteLine("Vou pedalar!");
+}
+else
+{
+    Console.WriteLine("Vou pedalar outro dia");
 }
