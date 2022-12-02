@@ -1,29 +1,36 @@
 ﻿using desenv_dotnet.Models;
 
-//operadores - AND
-/*
-bool possuiPresencaMinima = true;
-double media = 7.5;
 
-if (possuiPresencaMinima && media >= 7)
-{
-    Console.WriteLine("Aluno aprovado!");
-}
-else
-{
-    Console.WriteLine("Reprovado!");
-}
-*/
-//operadores - NOT
+// Calculadora calc = new Calculadora();
 
-bool choveu = false;
-bool estaTarde = false;
+// calc.Somar(9, 8);
 
-if (!choveu && !estaTarde)
+// calc.Subtrair(10, 5);
+
+// calc.Multiplicar(7, 6);
+
+// calc.Dividir(10, 4);
+
+// calc.Potencia(3, 3);
+
+// calc.Seno(30);
+
+// calc.Coseno(30);
+
+// calc.Tangente(30);
+
+// calc.RaizQuadrada(4);
+
+//Incremento e decremento
+int numero = 10;
+
+Console.WriteLine(numero);
+
+Console.WriteLine("Incrementando o 10");
+
+while(numero < 20)
 {
-    Console.WriteLine("Vou pedalar!");
+    numero++;
+    Console.WriteLine($"A contagem atual é: {numero}");
 }
-else
-{
-    Console.WriteLine("Vou pedalar outro dia");
-}
+Console.WriteLine(numero);
