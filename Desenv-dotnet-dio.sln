@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desenv-dotnet", "dotnet-dio\desenv-dotnet.csproj", "{1A21425C-E131-4FC1-B066-9CC924397031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desenv-dotnet.Common", "desenv-dotnet.Common\desenv-dotnet.Common.csproj", "{DC362F48-2F4B-41A3-85A4-D405F74970C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A21425C-E131-4FC1-B066-9CC924397031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A21425C-E131-4FC1-B066-9CC924397031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A21425C-E131-4FC1-B066-9CC924397031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A21425C-E131-4FC1-B066-9CC924397031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC362F48-2F4B-41A3-85A4-D405F74970C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC362F48-2F4B-41A3-85A4-D405F74970C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC362F48-2F4B-41A3-85A4-D405F74970C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC362F48-2F4B-41A3-85A4-D405F74970C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

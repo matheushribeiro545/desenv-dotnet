@@ -1,0 +1,12 @@
+C:\workspace\desenv-dotnet\desenv-dotnet.Common\bin\Debug\net7.0\desenv-dotnet.Common.deps.json
+C:\workspace\desenv-dotnet\desenv-dotnet.Common\bin\Debug\net7.0\desenv-dotnet.Common.dll
+C:\workspace\desenv-dotnet\desenv-dotnet.Common\bin\Debug\net7.0\desenv-dotnet.Common.pdb
+C:\workspace\desenv-dotnet\desenv-dotnet.Common\obj\Debug\net7.0\desenv-dotnet.Common.csproj.AssemblyReference.cache
+C:\workspace\desenv-dotnet\desenv-dotnet.Common\obj\Debug\net7.0\desenv-dotnet.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\desenv-dotnet\desenv-dotnet.Common\obj\Debug\net7.0\desenv-dotnet.Common.AssemblyInfoInputs.cache
+C:\workspace\desenv-dotnet\desenv-dotnet.Common\obj\Debug\net7.0\desenv-dotnet.Common.AssemblyInfo.cs
+C:\workspace\desenv-dotnet\desenv-dotnet.Common\obj\Debug\net7.0\desenv-dotnet.Common.csproj.CoreCompileInputs.cache
+C:\workspace\desenv-dotnet\desenv-dotnet.Common\obj\Debug\net7.0\desenv-dotnet.Common.dll
+C:\workspace\desenv-dotnet\desenv-dotnet.Common\obj\Debug\net7.0\refint\desenv-dotnet.Common.dll
+C:\workspace\desenv-dotnet\desenv-dotnet.Common\obj\Debug\net7.0\desenv-dotnet.Common.pdb
+C:\workspace\desenv-dotnet\desenv-dotnet.Common\obj\Debug\net7.0\ref\desenv-dotnet.Common.dll

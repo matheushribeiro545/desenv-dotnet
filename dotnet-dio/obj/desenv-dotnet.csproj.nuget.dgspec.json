@@ -1,0 +1,118 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\workspace\\desenv-dotnet\\dotnet-dio\\desenv-dotnet.csproj": {}
+  },
+  "projects": {
+    "C:\\workspace\\desenv-dotnet\\desenv-dotnet.Common\\desenv-dotnet.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\desenv-dotnet\\desenv-dotnet.Common\\desenv-dotnet.Common.csproj",
+        "projectName": "desenv-dotnet.Common",
+        "projectPath": "C:\\workspace\\desenv-dotnet\\desenv-dotnet.Common\\desenv-dotnet.Common.csproj",
+        "packagesPath": "C:\\Users\\MATHE\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\desenv-dotnet\\desenv-dotnet.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MATHE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\workspace\\desenv-dotnet\\dotnet-dio\\desenv-dotnet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\workspace\\desenv-dotnet\\dotnet-dio\\desenv-dotnet.csproj",
+        "projectName": "desenv-dotnet",
+        "projectPath": "C:\\workspace\\desenv-dotnet\\dotnet-dio\\desenv-dotnet.csproj",
+        "packagesPath": "C:\\Users\\MATHE\\.nuget\\packages\\",
+        "outputPath": "C:\\workspace\\desenv-dotnet\\dotnet-dio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MATHE\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\workspace\\desenv-dotnet\\desenv-dotnet.Common\\desenv-dotnet.Common.csproj": {
+                "projectPath": "C:\\workspace\\desenv-dotnet\\desenv-dotnet.Common\\desenv-dotnet.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

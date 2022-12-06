@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "desenv-dotnet/1.0.0": {
+        "dependencies": {
+          "desenv-dotnet.Common": "1.0.0"
+        },
+        "runtime": {
+          "desenv-dotnet.dll": {}
+        }
+      },
+      "desenv-dotnet.Common/1.0.0": {
+        "runtime": {
+          "desenv-dotnet.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "desenv-dotnet/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "desenv-dotnet.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
