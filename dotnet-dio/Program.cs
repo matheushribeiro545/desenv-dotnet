@@ -1,31 +1,23 @@
 ﻿using desenv_dotnet.Common.Models;
 
-// Arrays 
-int[] array = new int[5];
+// Lista - Nāo precisa citar capacitade máxima
 
-array[0] = 3; // Arrays começam pelo indice zero
-array[1] = 10;
-array[2] = 75;
-array[3] = 9;
-array[4] = 43;
+List<string> listaString = new List<string>();
 
-// Redimensāo do array, mas de forma manual
-int[] arrayCopia = new int[array.Length * 2];
-Array.Copy(array, arrayCopia, array.Length);
+listaString.Add("SP");
+listaString.Add("MG");
+listaString.Add("PR");
 
-// Redimensionar o tamanho do Array
-//Array.Resize(ref array, array.Length * 2);
-
-// Percorrendo array com FOR
-for(int contador = 0; contador < array.Length; contador++)
+// Percorrendo lista pelo FOR
+for(int contador = 0; contador < listaString.Count; contador++)
 {
-    Console.WriteLine($"Posiçāo Número {contador} - {array[contador]}");
+    Console.WriteLine($"Posiçāo N {contador} - {listaString[contador]}");
 }
 
-// Percorrendo array com FOREACH (Nāo exibe posiçāo)
-// int contadorForeach = 0; // Para apresentaçāo da posiçāo no FOREACH
-// foreach(int valor in array)
-// {
-//     Console.WriteLine($"Posiçāo N {contadorForeach} - {valor}");
-//     contadorForeach++;
-// }
+// Percorrendo lista pelo FOREACH
+int contadorForeach = 0;
+foreach(string item in listaString)
+{
+    Console.WriteLine($"Posiçāo N {contadorForeach} - {item}");
+    contadorForeach++;
+}
