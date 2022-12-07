@@ -93,3 +93,5 @@ Sobre a plataforma .Net
 - prop -> propriedade que completa um código
 
 - \n -> quebra de linha no texto de execuçāo
+
+- Versōes 5 e anteriores utilizam o método "main"
