@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/desenv-dotnet.csproj",
+                "${workspaceFolder}/dotnet-dio/desenv-dotnet.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/desenv-dotnet.csproj",
+                "${workspaceFolder}/dotnet-dio/desenv-dotnet.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -33,7 +33,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/desenv-dotnet.csproj"
+                "${workspaceFolder}/dotnet-dio/desenv-dotnet.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

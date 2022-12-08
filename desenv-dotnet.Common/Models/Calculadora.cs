@@ -7,21 +7,34 @@ namespace desenv_dotnet.Common.Models
 {
     public class Calculadora
     {
+        /// <summary>
+        /// Realiza a soma de dois números
+        /// </summary>
+        /// <param name="x">Primeiro número inteiro</param>
+        /// <param name="y">Segundo número inteiro</param>
         public void Somar(int x, int y)
         {
             Console.WriteLine($"{x} + {y} = {x + y}");
         }
-
+        /// <summary>
+        /// Realiza a subtraçāo de dois números
+        /// </summary>
+        /// <param name="x">Primeiro número inteiro</param>
+        /// <param name="y">Segundo número inteiro</param>
         public void Subtrair(int x, int y)
         {
             Console.WriteLine($"{x} - {y} = {x - y}");
         }
-
+        /// <summary>
+        /// Realiza a múltiplicaçāo de dois números
+        /// </summary>
+        /// <param name="x">Primeiro número inteiro</param>
+        /// <param name="y">Segundo número inteiro</param>
         public void Multiplicar(int x, int y)
         {
             Console.WriteLine($"{x} X {y} = {x * y}");
         }
-
+        
         public void Dividir (int x, int y)
         {
             Console.WriteLine($"{x} / {y} = {x / y}");
